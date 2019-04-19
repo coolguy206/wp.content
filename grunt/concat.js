@@ -7,21 +7,21 @@ module.exports = function(grunt) {
     // HOMEPAGE ---------------------------------------------------------------------------
     hpConcat: {
       files: {
-        'home/<%= hp.name %>/build/hp.html': [''],
+        'home/<%= hp.name %>/concat/home.html': [''],
       }
     },
 
     // POSTS ---------------------------------------------------------------------------
     postsConcat: {
       files: {
-        'posts/<%= posts.name %>/build/posts.html': [''],
+        'posts/<%= posts.name %>/concat/posts.html': [''],
       }
     },
 
     // PAGES ---------------------------------------------------------------------------
     pagesConcat: {
       files: {
-        'pages/<%= pages.name %>/build/pages.html': [''],
+        'pages/<%= pages.name %>/concat/pages.html': [''],
       }
     },
 

@@ -31,7 +31,7 @@ module.exports = function(grunt) {
       name: '',
     },
     pages: {
-      name: '',
+      name: 'resume',
     }
   };
 

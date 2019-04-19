@@ -16,6 +16,34 @@ module.exports = function(grunt) {
       ],
     },
 
+    // PAGES  ---------------------------------------------------------------------------
+    pagesCopy: {
+
+      files: [
+        //copy the styles.css
+        {
+          expand: true,
+          cwd: 'pages/',
+          src: [''],
+          dest: 'pages/<%= pages.name %>/'
+        },
+      ],
+    },
+
+    // POSTS  ---------------------------------------------------------------------------
+    postsCopy: {
+
+      files: [
+        //copy the styles.css
+        {
+          expand: true,
+          cwd: 'posts/',
+          src: [''],
+          dest: 'posts/<%= posts.name %>/'
+        },
+      ],
+    },
+
 
     // PROMOS  ---------------------------------------------------------------------------
     // promosCopy: {
